@@ -2,7 +2,8 @@
 
 /**
  * print_alphabet - Make the alphabet
- * Return: void
+ *
+ * Return: On success 1.
  */
 void print_alphabet(void)
 {
