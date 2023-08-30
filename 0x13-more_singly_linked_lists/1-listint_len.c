@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * listint_len - returns the num of elements linke_lists
+ * listint_len - returns the number of elements linke_lists
  * @h: linked_list of_type listint_t to the traverse
  *
  * Return: num of nodes
@@ -16,5 +16,5 @@ size_t listint_len(const listint_t *h)
 		h = h->next;
 	}
 
-	return (number);
+	return (num);
 }
